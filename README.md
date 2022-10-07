@@ -14,7 +14,7 @@ Project-template
 ---
 ## git提交规范
 * 采用AngularJS的git提交消息方式
-  * 格式 type(scope) : subject
+  * 格式 type(scope) : description
     1. type: commit的类别--**必须项**
        * fix: 修复bug
        * add: 增加新功能
