@@ -1,4 +1,6 @@
 # 说明
+## git指导书
+* [Git-Book](https://git-scm.com/book/zh/v2)
 ## 项目文件树结构
 Project-template
 |---/dataset          :数据集文件
@@ -48,4 +50,9 @@ Project-template
 9. 将开发分支合并到主分支，删除开发分支(选做)
    * git checkout -b master && git branch -d local
 10. create new pull request
+---
+## git本地仓库关联远端
+1. git remote add origin remote_addr
+2. git branch -M main
+3. git push -u origin main
 
